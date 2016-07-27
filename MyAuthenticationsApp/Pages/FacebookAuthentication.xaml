@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="MyAuthenticationsApp.Pages.FacebookAuthentication"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyAuthenticationsApp.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center">
+            <Button Name="btnLogin" Click="btnLogin_Click">
+                Click Me to Login
+            </Button>
+            <Button Name="btnGetInfo" Click="btnGetInfo_Click">Click Me to Get UserInfo</Button>
+            <Button Name="btnLogout" Click="btnLogout_Click">Click Me to Logout</Button>
+            <TextBlock Name="tbOutput" Text="Output Place Holder" FontStyle="Oblique" FontSize="15"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
